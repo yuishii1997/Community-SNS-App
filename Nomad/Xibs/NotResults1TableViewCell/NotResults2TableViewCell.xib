@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotResults2" rowHeight="73" id="a5r-mw-Cw3" customClass="NotResults2TableViewCell" customModule="Nomad" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="334" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="a5r-mw-Cw3" id="EYQ-re-287">
+                <rect key="frame" x="0.0" y="0.0" width="334" height="73"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LoQ-q3-dr6">
+                        <rect key="frame" x="0.0" y="0.0" width="334" height="58"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z77-hi-TUA">
+                                <rect key="frame" x="15" y="57.5" width="319" height="0.5"/>
+                                <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="0.5" id="VKO-hn-SFT"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="z77-hi-TUA" secondAttribute="bottom" id="IVx-4f-Rhd"/>
+                            <constraint firstAttribute="height" constant="58" id="SyP-Bn-ZuN"/>
+                            <constraint firstItem="z77-hi-TUA" firstAttribute="leading" secondItem="LoQ-q3-dr6" secondAttribute="leading" constant="15" id="pjE-oJ-tD9"/>
+                            <constraint firstAttribute="trailing" secondItem="z77-hi-TUA" secondAttribute="trailing" id="xLk-fw-o2n"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="一致する結果はありません" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XJc-Tj-HDx">
+                        <rect key="frame" x="15" y="20" width="184" height="18"/>
+                        <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                        <color key="textColor" systemColor="secondaryLabelColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="LoQ-q3-dr6" firstAttribute="top" secondItem="EYQ-re-287" secondAttribute="top" id="0My-Xo-ZKa"/>
+                    <constraint firstAttribute="bottom" secondItem="LoQ-q3-dr6" secondAttribute="bottom" id="NK1-ox-cbn"/>
+                    <constraint firstItem="XJc-Tj-HDx" firstAttribute="leading" secondItem="EYQ-re-287" secondAttribute="leading" constant="15" id="SH6-rn-XdE"/>
+                    <constraint firstItem="LoQ-q3-dr6" firstAttribute="leading" secondItem="EYQ-re-287" secondAttribute="leading" id="fWb-7T-2JE"/>
+                    <constraint firstItem="XJc-Tj-HDx" firstAttribute="centerY" secondItem="LoQ-q3-dr6" secondAttribute="centerY" id="gur-7A-PkA"/>
+                    <constraint firstAttribute="trailing" secondItem="LoQ-q3-dr6" secondAttribute="trailing" id="r24-b2-6aP"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="8QC-cq-69v"/>
+            <point key="canvasLocation" x="105.79710144927537" y="79.352678571428569"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

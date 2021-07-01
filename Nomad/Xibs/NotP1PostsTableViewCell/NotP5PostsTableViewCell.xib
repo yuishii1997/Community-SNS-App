@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotP5Posts" rowHeight="200" id="QQn-OG-VFB" customClass="NotP5PostsTableViewCell" customModule="Nomad" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QQn-OG-VFB" id="M0y-UQ-zTD">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ALE-Q5-mYB">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このユーザーのアクティビティは表示されません。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="biu-5P-71k">
+                                <rect key="frame" x="15" y="25" width="404" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="06O-Ix-cpH"/>
+                            <constraint firstItem="biu-5P-71k" firstAttribute="leading" secondItem="ALE-Q5-mYB" secondAttribute="leading" constant="15" id="QZt-ya-g9Q"/>
+                            <constraint firstAttribute="trailing" secondItem="biu-5P-71k" secondAttribute="trailing" constant="15" id="Y9j-1b-caZ"/>
+                            <constraint firstItem="biu-5P-71k" firstAttribute="top" secondItem="ALE-Q5-mYB" secondAttribute="top" constant="25" id="nGW-aK-KdE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="ALE-Q5-mYB" secondAttribute="bottom" id="Ks2-Z8-2Yl"/>
+                    <constraint firstItem="ALE-Q5-mYB" firstAttribute="leading" secondItem="M0y-UQ-zTD" secondAttribute="leading" id="TpV-R3-1Ih"/>
+                    <constraint firstAttribute="trailing" secondItem="ALE-Q5-mYB" secondAttribute="trailing" id="aFe-Bi-Oiq"/>
+                    <constraint firstItem="ALE-Q5-mYB" firstAttribute="top" secondItem="M0y-UQ-zTD" secondAttribute="top" id="eJQ-sP-6rZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="01Z-co-AvZ"/>
+            <connections>
+                <outlet property="label" destination="biu-5P-71k" id="OjA-lu-yLR"/>
+            </connections>
+            <point key="canvasLocation" x="84.057971014492765" y="160.04464285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

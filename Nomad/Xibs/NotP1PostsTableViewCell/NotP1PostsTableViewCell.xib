@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotP1Posts" rowHeight="200" id="43c-AF-quw" customClass="NotP1PostsTableViewCell" customModule="Nomad" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="43c-AF-quw" id="ZBu-VR-6Ij">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pmb-oC-8Vl">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このユーザーは投稿をしていません。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v2f-mM-DDt">
+                                <rect key="frame" x="15" y="0.0" width="404" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="v2f-mM-DDt" firstAttribute="top" secondItem="Pmb-oC-8Vl" secondAttribute="top" id="1u1-nm-eiB"/>
+                            <constraint firstAttribute="height" constant="200" id="QY6-Zy-sG3"/>
+                            <constraint firstItem="v2f-mM-DDt" firstAttribute="leading" secondItem="Pmb-oC-8Vl" secondAttribute="leading" constant="15" id="e4B-dQ-YbS"/>
+                            <constraint firstAttribute="trailing" secondItem="v2f-mM-DDt" secondAttribute="trailing" constant="15" id="pVP-fK-VMr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="Pmb-oC-8Vl" firstAttribute="top" secondItem="ZBu-VR-6Ij" secondAttribute="top" id="U1p-7D-s2d"/>
+                    <constraint firstItem="Pmb-oC-8Vl" firstAttribute="leading" secondItem="ZBu-VR-6Ij" secondAttribute="leading" id="ZeV-IG-sx6"/>
+                    <constraint firstAttribute="bottom" secondItem="Pmb-oC-8Vl" secondAttribute="bottom" id="Zgm-rf-OjK"/>
+                    <constraint firstAttribute="trailing" secondItem="Pmb-oC-8Vl" secondAttribute="trailing" id="x0J-aF-2iv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="fe8-vO-UbN"/>
+            <connections>
+                <outlet property="label" destination="v2f-mM-DDt" id="KSg-f1-0ql"/>
+            </connections>
+            <point key="canvasLocation" x="84.057971014492765" y="160.04464285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotP4Posts" rowHeight="200" id="OZm-v3-AMW" customClass="NotP4PostsTableViewCell" customModule="Nomad" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="OZm-v3-AMW" id="cZY-ad-sKt">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dl5-0S-5is">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このユーザーは画像付きの投稿をしていません。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KZB-zT-TNo">
+                                <rect key="frame" x="15" y="25" width="404" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="200" id="Atf-ZW-UY0"/>
+                            <constraint firstAttribute="trailing" secondItem="KZB-zT-TNo" secondAttribute="trailing" constant="15" id="Itp-GM-blt"/>
+                            <constraint firstItem="KZB-zT-TNo" firstAttribute="top" secondItem="dl5-0S-5is" secondAttribute="top" constant="25" id="mc9-Nh-Cgc"/>
+                            <constraint firstItem="KZB-zT-TNo" firstAttribute="leading" secondItem="dl5-0S-5is" secondAttribute="leading" constant="15" id="phO-JD-4CY"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="dl5-0S-5is" secondAttribute="trailing" id="44e-an-uio"/>
+                    <constraint firstItem="dl5-0S-5is" firstAttribute="leading" secondItem="cZY-ad-sKt" secondAttribute="leading" id="SfU-lJ-TJQ"/>
+                    <constraint firstAttribute="bottom" secondItem="dl5-0S-5is" secondAttribute="bottom" id="oxR-19-AJT"/>
+                    <constraint firstItem="dl5-0S-5is" firstAttribute="top" secondItem="cZY-ad-sKt" secondAttribute="top" id="vDE-jN-dZT"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="xC2-7p-DK4"/>
+            <connections>
+                <outlet property="label" destination="KZB-zT-TNo" id="Mfg-UH-QaU"/>
+            </connections>
+            <point key="canvasLocation" x="71" y="156"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

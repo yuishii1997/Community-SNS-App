@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="NotP6Posts" rowHeight="200" id="oEn-s9-2Ra" customClass="NotP6PostsTableViewCell" customModule="Nomad" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oEn-s9-2Ra" id="bxv-Od-Gro">
+                <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KD1-HE-Rez">
+                        <rect key="frame" x="0.0" y="0.0" width="434" height="200"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="このユーザーは概要を設定していません。" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1gh-K5-xrc">
+                                <rect key="frame" x="15" y="25" width="404" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1gh-K5-xrc" firstAttribute="top" secondItem="KD1-HE-Rez" secondAttribute="top" constant="25" id="ZgT-Sa-r92"/>
+                            <constraint firstItem="1gh-K5-xrc" firstAttribute="leading" secondItem="KD1-HE-Rez" secondAttribute="leading" constant="15" id="bbM-w0-wgo"/>
+                            <constraint firstAttribute="height" constant="200" id="dIB-bK-BiV"/>
+                            <constraint firstAttribute="trailing" secondItem="1gh-K5-xrc" secondAttribute="trailing" constant="15" id="n2y-n1-mdq"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="KD1-HE-Rez" secondAttribute="bottom" id="8ci-DB-P9f"/>
+                    <constraint firstItem="KD1-HE-Rez" firstAttribute="leading" secondItem="bxv-Od-Gro" secondAttribute="leading" id="ASb-m2-RIF"/>
+                    <constraint firstAttribute="trailing" secondItem="KD1-HE-Rez" secondAttribute="trailing" id="Ozd-dG-SWo"/>
+                    <constraint firstItem="KD1-HE-Rez" firstAttribute="top" secondItem="bxv-Od-Gro" secondAttribute="top" id="fe1-eg-hzS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="6qW-39-k29"/>
+            <connections>
+                <outlet property="label" destination="1gh-K5-xrc" id="oJT-Cz-0rg"/>
+            </connections>
+            <point key="canvasLocation" x="84.057971014492765" y="160.04464285714286"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
