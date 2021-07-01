@@ -3,19 +3,85 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4AE9B68DF8AF99A4D2CCA658 /* Pods_Nomad.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41E1C72DE8CB94D01E428153 /* Pods_Nomad.framework */; };
 		D1E36FA5268DAE7300A10EE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FA4268DAE7300A10EE1 /* AppDelegate.swift */; };
 		D1E36FA7268DAE7300A10EE1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FA6268DAE7300A10EE1 /* SceneDelegate.swift */; };
 		D1E36FA9268DAE7300A10EE1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FA8268DAE7300A10EE1 /* ViewController.swift */; };
 		D1E36FAC268DAE7300A10EE1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E36FAA268DAE7300A10EE1 /* Main.storyboard */; };
 		D1E36FAE268DAE7500A10EE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1E36FAD268DAE7500A10EE1 /* Assets.xcassets */; };
 		D1E36FB1268DAE7500A10EE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E36FAF268DAE7500A10EE1 /* LaunchScreen.storyboard */; };
+		D1E37042268DB0E800A10EE1 /* LikeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FE9268DAF7E00A10EE1 /* LikeViewController.swift */; };
+		D1E37043268DB0E800A10EE1 /* NameComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FEB268DAF8500A10EE1 /* NameComViewController.swift */; };
+		D1E37044268DB0E800A10EE1 /* NameEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FED268DAF8D00A10EE1 /* NameEditViewController.swift */; };
+		D1E37045268DB0E800A10EE1 /* CaptionComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FEE268DAF9400A10EE1 /* CaptionComViewController.swift */; };
+		D1E37046268DB0E800A10EE1 /* PersonalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FF0268DAF9C00A10EE1 /* PersonalViewController.swift */; };
+		D1E37047268DB0E800A10EE1 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FF1268DAFA400A10EE1 /* ProfileEditViewController.swift */; };
+		D1E37048268DB0E800A10EE1 /* SettingsNameTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FF3268DAFA900A10EE1 /* SettingsNameTableViewController.swift */; };
+		D1E37049268DB0E800A10EE1 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FF5268DAFB100A10EE1 /* TermsViewController.swift */; };
+		D1E3704A268DB0E800A10EE1 /* Terms2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FF6268DAFB100A10EE1 /* Terms2ViewController.swift */; };
+		D1E3704B268DB0E800A10EE1 /* PrivacyPolicy2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FF8268DAFB800A10EE1 /* PrivacyPolicy2ViewController.swift */; };
+		D1E3704C268DB0E800A10EE1 /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FF9268DAFB800A10EE1 /* PrivacyPolicyViewController.swift */; };
+		D1E3704D268DB0E800A10EE1 /* AddDescViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FFB268DAFBE00A10EE1 /* AddDescViewController.swift */; };
+		D1E3704E268DB0E800A10EE1 /* FollowingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FFC268DAFC500A10EE1 /* FollowingViewController.swift */; };
+		D1E3704F268DB0E800A10EE1 /* ContactUs2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FFE268DAFCC00A10EE1 /* ContactUs2ViewController.swift */; };
+		D1E37050268DB0E800A10EE1 /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E36FFF268DAFCC00A10EE1 /* ContactUsViewController.swift */; };
+		D1E37051268DB0E800A10EE1 /* DeleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37001268DAFD100A10EE1 /* DeleteViewController.swift */; };
+		D1E37052268DB0E800A10EE1 /* CaptionEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37002268DAFD700A10EE1 /* CaptionEditViewController.swift */; };
+		D1E37053268DB0E800A10EE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37003268DAFDD00A10EE1 /* LoginViewController.swift */; };
+		D1E37054268DB0E800A10EE1 /* MyPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37004268DAFE300A10EE1 /* MyPostsViewController.swift */; };
+		D1E37055268DB0E800A10EE1 /* OverViewComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37005268DAFED00A10EE1 /* OverViewComViewController.swift */; };
+		D1E37056268DB0E800A10EE1 /* Page4ComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37008268DAFF500A10EE1 /* Page4ComViewController.swift */; };
+		D1E37057268DB0E800A10EE1 /* Page3ComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37009268DAFF500A10EE1 /* Page3ComViewController.swift */; };
+		D1E37058268DB0E800A10EE1 /* Page1ComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3700A268DAFF500A10EE1 /* Page1ComViewController.swift */; };
+		D1E37059268DB0E800A10EE1 /* Page4ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3700B268DAFF500A10EE1 /* Page4ViewController.swift */; };
+		D1E3705A268DB0E800A10EE1 /* Page3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3700C268DAFF500A10EE1 /* Page3ViewController.swift */; };
+		D1E3705B268DB0E800A10EE1 /* Page2ComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3700D268DAFF500A10EE1 /* Page2ComViewController.swift */; };
+		D1E3705C268DB0E800A10EE1 /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3700E268DAFF500A10EE1 /* Page2ViewController.swift */; };
+		D1E3705D268DB0E900A10EE1 /* Page1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3700F268DAFF500A10EE1 /* Page1ViewController.swift */; };
+		D1E3705E268DB0E900A10EE1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37011268DAFFE00A10EE1 /* HomeViewController.swift */; };
+		D1E3705F268DB0E900A10EE1 /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37013268DB00500A10EE1 /* PostViewController.swift */; };
+		D1E37060268DB0E900A10EE1 /* Post2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37014268DB00500A10EE1 /* Post2ViewController.swift */; };
+		D1E37061268DB0E900A10EE1 /* EmailVerificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37016268DB00C00A10EE1 /* EmailVerificationViewController.swift */; };
+		D1E37062268DB0E900A10EE1 /* JoinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37017268DB01200A10EE1 /* JoinViewController.swift */; };
+		D1E37063268DB0E900A10EE1 /* Search1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37019268DB01900A10EE1 /* Search1ViewController.swift */; };
+		D1E37064268DB0E900A10EE1 /* Search2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3701A268DB01900A10EE1 /* Search2ViewController.swift */; };
+		D1E37065268DB0E900A10EE1 /* MyNomadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3701C268DB02100A10EE1 /* MyNomadViewController.swift */; };
+		D1E37066268DB0E900A10EE1 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3701D268DB02A00A10EE1 /* CategoryViewController.swift */; };
+		D1E37067268DB0E900A10EE1 /* NoticeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3701E268DB03400A10EE1 /* NoticeViewController.swift */; };
+		D1E37068268DB0E900A10EE1 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3701F268DB03E00A10EE1 /* ActivityViewController.swift */; };
+		D1E37069268DB0E900A10EE1 /* CategoryPostsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37021268DB04700A10EE1 /* CategoryPostsViewController.swift */; };
+		D1E3706A268DB0E900A10EE1 /* OverViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37023268DB05000A10EE1 /* OverViewViewController.swift */; };
+		D1E3706B268DB0E900A10EE1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37024268DB05700A10EE1 /* SettingsViewController.swift */; };
+		D1E3706C268DB0E900A10EE1 /* PostEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37026268DB05D00A10EE1 /* PostEditViewController.swift */; };
+		D1E3706D268DB0E900A10EE1 /* PasswordReset2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37028268DB06500A10EE1 /* PasswordReset2ViewController.swift */; };
+		D1E3706E268DB0E900A10EE1 /* PasswordResetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37029268DB06500A10EE1 /* PasswordResetViewController.swift */; };
+		D1E3706F268DB0E900A10EE1 /* StartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3702A268DB06C00A10EE1 /* StartViewController.swift */; };
+		D1E37070268DB0E900A10EE1 /* WebComViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3702B268DB07300A10EE1 /* WebComViewController.swift */; };
+		D1E37071268DB0E900A10EE1 /* WebEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3702D268DB07B00A10EE1 /* WebEditViewController.swift */; };
+		D1E37072268DB0E900A10EE1 /* ChooseDestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37030268DB08200A10EE1 /* ChooseDestViewController.swift */; };
+		D1E37073268DB0E900A10EE1 /* ChooseCategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37031268DB08200A10EE1 /* ChooseCategoryViewController.swift */; };
+		D1E37074268DB0E900A10EE1 /* BookmarksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37032268DB08900A10EE1 /* BookmarksViewController.swift */; };
+		D1E37075268DB0E900A10EE1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37033268DB08F00A10EE1 /* SignUpViewController.swift */; };
+		D1E37076268DB0E900A10EE1 /* HowToUseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37035268DB09500A10EE1 /* HowToUseViewController.swift */; };
+		D1E37077268DB0E900A10EE1 /* ViewedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37036268DB09B00A10EE1 /* ViewedViewController.swift */; };
+		D1E37078268DB0E900A10EE1 /* CategoryMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37037268DB0A300A10EE1 /* CategoryMenuViewController.swift */; };
+		D1E37079268DB0E900A10EE1 /* UserListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37038268DB0AE00A10EE1 /* UserListViewController.swift */; };
+		D1E3707A268DB0E900A10EE1 /* BlockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37039268DB0B900A10EE1 /* BlockViewController.swift */; };
+		D1E3707B268DB0E900A10EE1 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3703A268DB0C400A10EE1 /* BaseViewController.swift */; };
+		D1E3707C268DB0E900A10EE1 /* ChatRoomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3703C268DB0CD00A10EE1 /* ChatRoomViewController.swift */; };
+		D1E3707D268DB0E900A10EE1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3703D268DB0D500A10EE1 /* TabBarController.swift */; };
+		D1E3707E268DB0E900A10EE1 /* NavigateFromSearchResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E3703F268DB0DE00A10EE1 /* NavigateFromSearchResultProtocol.swift */; };
+		D1E3707F268DB0E900A10EE1 /* TestNavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E37041268DB0E800A10EE1 /* TestNavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		41E1C72DE8CB94D01E428153 /* Pods_Nomad.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nomad.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90E9F59858B007DC6D647D5D /* Pods-Nomad.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nomad.debug.xcconfig"; path = "Target Support Files/Pods-Nomad/Pods-Nomad.debug.xcconfig"; sourceTree = "<group>"; };
+		BA2262717208A05A1DD5C2E5 /* Pods-Nomad.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nomad.release.xcconfig"; path = "Target Support Files/Pods-Nomad/Pods-Nomad.release.xcconfig"; sourceTree = "<group>"; };
 		D1E36FA1268DAE7300A10EE1 /* Nomad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nomad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E36FA4268DAE7300A10EE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E36FA6268DAE7300A10EE1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +90,68 @@
 		D1E36FAD268DAE7500A10EE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1E36FB0268DAE7500A10EE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D1E36FB2268DAE7500A10EE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1E36FE9268DAF7E00A10EE1 /* LikeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeViewController.swift; sourceTree = "<group>"; };
+		D1E36FEB268DAF8500A10EE1 /* NameComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameComViewController.swift; sourceTree = "<group>"; };
+		D1E36FED268DAF8D00A10EE1 /* NameEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameEditViewController.swift; sourceTree = "<group>"; };
+		D1E36FEE268DAF9400A10EE1 /* CaptionComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionComViewController.swift; sourceTree = "<group>"; };
+		D1E36FF0268DAF9C00A10EE1 /* PersonalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalViewController.swift; sourceTree = "<group>"; };
+		D1E36FF1268DAFA400A10EE1 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		D1E36FF3268DAFA900A10EE1 /* SettingsNameTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsNameTableViewController.swift; sourceTree = "<group>"; };
+		D1E36FF5268DAFB100A10EE1 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		D1E36FF6268DAFB100A10EE1 /* Terms2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Terms2ViewController.swift; sourceTree = "<group>"; };
+		D1E36FF8268DAFB800A10EE1 /* PrivacyPolicy2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicy2ViewController.swift; sourceTree = "<group>"; };
+		D1E36FF9268DAFB800A10EE1 /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		D1E36FFB268DAFBE00A10EE1 /* AddDescViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDescViewController.swift; sourceTree = "<group>"; };
+		D1E36FFC268DAFC500A10EE1 /* FollowingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FollowingViewController.swift; sourceTree = "<group>"; };
+		D1E36FFE268DAFCC00A10EE1 /* ContactUs2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUs2ViewController.swift; sourceTree = "<group>"; };
+		D1E36FFF268DAFCC00A10EE1 /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		D1E37001268DAFD100A10EE1 /* DeleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeleteViewController.swift; sourceTree = "<group>"; };
+		D1E37002268DAFD700A10EE1 /* CaptionEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaptionEditViewController.swift; sourceTree = "<group>"; };
+		D1E37003268DAFDD00A10EE1 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D1E37004268DAFE300A10EE1 /* MyPostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPostsViewController.swift; sourceTree = "<group>"; };
+		D1E37005268DAFED00A10EE1 /* OverViewComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewComViewController.swift; sourceTree = "<group>"; };
+		D1E37008268DAFF500A10EE1 /* Page4ComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page4ComViewController.swift; sourceTree = "<group>"; };
+		D1E37009268DAFF500A10EE1 /* Page3ComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page3ComViewController.swift; sourceTree = "<group>"; };
+		D1E3700A268DAFF500A10EE1 /* Page1ComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ComViewController.swift; sourceTree = "<group>"; };
+		D1E3700B268DAFF500A10EE1 /* Page4ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page4ViewController.swift; sourceTree = "<group>"; };
+		D1E3700C268DAFF500A10EE1 /* Page3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page3ViewController.swift; sourceTree = "<group>"; };
+		D1E3700D268DAFF500A10EE1 /* Page2ComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ComViewController.swift; sourceTree = "<group>"; };
+		D1E3700E268DAFF500A10EE1 /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		D1E3700F268DAFF500A10EE1 /* Page1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page1ViewController.swift; sourceTree = "<group>"; };
+		D1E37011268DAFFE00A10EE1 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D1E37013268DB00500A10EE1 /* PostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		D1E37014268DB00500A10EE1 /* Post2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post2ViewController.swift; sourceTree = "<group>"; };
+		D1E37016268DB00C00A10EE1 /* EmailVerificationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailVerificationViewController.swift; sourceTree = "<group>"; };
+		D1E37017268DB01200A10EE1 /* JoinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JoinViewController.swift; sourceTree = "<group>"; };
+		D1E37019268DB01900A10EE1 /* Search1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search1ViewController.swift; sourceTree = "<group>"; };
+		D1E3701A268DB01900A10EE1 /* Search2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Search2ViewController.swift; sourceTree = "<group>"; };
+		D1E3701C268DB02100A10EE1 /* MyNomadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNomadViewController.swift; sourceTree = "<group>"; };
+		D1E3701D268DB02A00A10EE1 /* CategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		D1E3701E268DB03400A10EE1 /* NoticeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoticeViewController.swift; sourceTree = "<group>"; };
+		D1E3701F268DB03E00A10EE1 /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		D1E37021268DB04700A10EE1 /* CategoryPostsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryPostsViewController.swift; sourceTree = "<group>"; };
+		D1E37023268DB05000A10EE1 /* OverViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverViewViewController.swift; sourceTree = "<group>"; };
+		D1E37024268DB05700A10EE1 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		D1E37026268DB05D00A10EE1 /* PostEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostEditViewController.swift; sourceTree = "<group>"; };
+		D1E37028268DB06500A10EE1 /* PasswordReset2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordReset2ViewController.swift; sourceTree = "<group>"; };
+		D1E37029268DB06500A10EE1 /* PasswordResetViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordResetViewController.swift; sourceTree = "<group>"; };
+		D1E3702A268DB06C00A10EE1 /* StartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartViewController.swift; sourceTree = "<group>"; };
+		D1E3702B268DB07300A10EE1 /* WebComViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebComViewController.swift; sourceTree = "<group>"; };
+		D1E3702D268DB07B00A10EE1 /* WebEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebEditViewController.swift; sourceTree = "<group>"; };
+		D1E37030268DB08200A10EE1 /* ChooseDestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseDestViewController.swift; sourceTree = "<group>"; };
+		D1E37031268DB08200A10EE1 /* ChooseCategoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChooseCategoryViewController.swift; sourceTree = "<group>"; };
+		D1E37032268DB08900A10EE1 /* BookmarksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookmarksViewController.swift; sourceTree = "<group>"; };
+		D1E37033268DB08F00A10EE1 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D1E37035268DB09500A10EE1 /* HowToUseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToUseViewController.swift; sourceTree = "<group>"; };
+		D1E37036268DB09B00A10EE1 /* ViewedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewedViewController.swift; sourceTree = "<group>"; };
+		D1E37037268DB0A300A10EE1 /* CategoryMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategoryMenuViewController.swift; sourceTree = "<group>"; };
+		D1E37038268DB0AE00A10EE1 /* UserListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListViewController.swift; sourceTree = "<group>"; };
+		D1E37039268DB0B900A10EE1 /* BlockViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockViewController.swift; sourceTree = "<group>"; };
+		D1E3703A268DB0C400A10EE1 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		D1E3703C268DB0CD00A10EE1 /* ChatRoomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatRoomViewController.swift; sourceTree = "<group>"; };
+		D1E3703D268DB0D500A10EE1 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D1E3703F268DB0DE00A10EE1 /* NavigateFromSearchResultProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigateFromSearchResultProtocol.swift; sourceTree = "<group>"; };
+		D1E37041268DB0E800A10EE1 /* TestNavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestNavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +159,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AE9B68DF8AF99A4D2CCA658 /* Pods_Nomad.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A8E038CAD780AE8E4F7142B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90E9F59858B007DC6D647D5D /* Pods-Nomad.debug.xcconfig */,
+				BA2262717208A05A1DD5C2E5 /* Pods-Nomad.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AF59455DF542067996BF13D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41E1C72DE8CB94D01E428153 /* Pods_Nomad.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D1E36F98268DAE7300A10EE1 = {
 			isa = PBXGroup;
 			children = (
 				D1E36FA3268DAE7300A10EE1 /* Nomad */,
 				D1E36FA2268DAE7300A10EE1 /* Products */,
+				A8E038CAD780AE8E4F7142B9 /* Pods */,
+				AF59455DF542067996BF13D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +204,7 @@
 		D1E36FA3268DAE7300A10EE1 /* Nomad */ = {
 			isa = PBXGroup;
 			children = (
+				D1E36FE6268DAF4C00A10EE1 /* Controllers */,
 				D1E36FA4268DAE7300A10EE1 /* AppDelegate.swift */,
 				D1E36FA6268DAE7300A10EE1 /* SceneDelegate.swift */,
 				D1E36FA8268DAE7300A10EE1 /* ViewController.swift */,
@@ -67,6 +216,139 @@
 			path = Nomad;
 			sourceTree = "<group>";
 		};
+		D1E36FE6268DAF4C00A10EE1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D1E3701F268DB03E00A10EE1 /* ActivityViewController.swift */,
+				D1E36FFB268DAFBE00A10EE1 /* AddDescViewController.swift */,
+				D1E3703A268DB0C400A10EE1 /* BaseViewController.swift */,
+				D1E37039268DB0B900A10EE1 /* BlockViewController.swift */,
+				D1E37032268DB08900A10EE1 /* BookmarksViewController.swift */,
+				D1E36FEE268DAF9400A10EE1 /* CaptionComViewController.swift */,
+				D1E37002268DAFD700A10EE1 /* CaptionEditViewController.swift */,
+				D1E37037268DB0A300A10EE1 /* CategoryMenuViewController.swift */,
+				D1E37021268DB04700A10EE1 /* CategoryPostsViewController.swift */,
+				D1E3701D268DB02A00A10EE1 /* CategoryViewController.swift */,
+				D1E3703C268DB0CD00A10EE1 /* ChatRoomViewController.swift */,
+				D1E3702F268DB08200A10EE1 /* ChooseDestViewController */,
+				D1E36FFD268DAFCC00A10EE1 /* ContactUsViewController */,
+				D1E37001268DAFD100A10EE1 /* DeleteViewController.swift */,
+				D1E37016268DB00C00A10EE1 /* EmailVerificationViewController.swift */,
+				D1E36FFC268DAFC500A10EE1 /* FollowingViewController.swift */,
+				D1E37011268DAFFE00A10EE1 /* HomeViewController.swift */,
+				D1E37035268DB09500A10EE1 /* HowToUseViewController.swift */,
+				D1E37017268DB01200A10EE1 /* JoinViewController.swift */,
+				D1E36FE9268DAF7E00A10EE1 /* LikeViewController.swift */,
+				D1E37003268DAFDD00A10EE1 /* LoginViewController.swift */,
+				D1E3701C268DB02100A10EE1 /* MyNomadViewController.swift */,
+				D1E37004268DAFE300A10EE1 /* MyPostsViewController.swift */,
+				D1E36FEB268DAF8500A10EE1 /* NameComViewController.swift */,
+				D1E36FED268DAF8D00A10EE1 /* NameEditViewController.swift */,
+				D1E3703F268DB0DE00A10EE1 /* NavigateFromSearchResultProtocol.swift */,
+				D1E3701E268DB03400A10EE1 /* NoticeViewController.swift */,
+				D1E37005268DAFED00A10EE1 /* OverViewComViewController.swift */,
+				D1E37023268DB05000A10EE1 /* OverViewViewController.swift */,
+				D1E37007268DAFF500A10EE1 /* Page1ViewController */,
+				D1E37027268DB06500A10EE1 /* PasswordResetViewController */,
+				D1E36FF0268DAF9C00A10EE1 /* PersonalViewController.swift */,
+				D1E37026268DB05D00A10EE1 /* PostEditViewController.swift */,
+				D1E37012268DB00500A10EE1 /* PostViewController */,
+				D1E36FF7268DAFB800A10EE1 /* PrivacyPolicyViewController */,
+				D1E36FF1268DAFA400A10EE1 /* ProfileEditViewController.swift */,
+				D1E37018268DB01900A10EE1 /* Search1ViewController */,
+				D1E36FF3268DAFA900A10EE1 /* SettingsNameTableViewController.swift */,
+				D1E37024268DB05700A10EE1 /* SettingsViewController.swift */,
+				D1E37033268DB08F00A10EE1 /* SignUpViewController.swift */,
+				D1E3702A268DB06C00A10EE1 /* StartViewController.swift */,
+				D1E3703D268DB0D500A10EE1 /* TabBarController.swift */,
+				D1E36FF4268DAFB100A10EE1 /* TermsViewController */,
+				D1E37041268DB0E800A10EE1 /* TestNavigationViewController.swift */,
+				D1E37038268DB0AE00A10EE1 /* UserListViewController.swift */,
+				D1E37036268DB09B00A10EE1 /* ViewedViewController.swift */,
+				D1E3702B268DB07300A10EE1 /* WebComViewController.swift */,
+				D1E3702D268DB07B00A10EE1 /* WebEditViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D1E36FF4268DAFB100A10EE1 /* TermsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E36FF5268DAFB100A10EE1 /* TermsViewController.swift */,
+				D1E36FF6268DAFB100A10EE1 /* Terms2ViewController.swift */,
+			);
+			path = TermsViewController;
+			sourceTree = "<group>";
+		};
+		D1E36FF7268DAFB800A10EE1 /* PrivacyPolicyViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E36FF8268DAFB800A10EE1 /* PrivacyPolicy2ViewController.swift */,
+				D1E36FF9268DAFB800A10EE1 /* PrivacyPolicyViewController.swift */,
+			);
+			path = PrivacyPolicyViewController;
+			sourceTree = "<group>";
+		};
+		D1E36FFD268DAFCC00A10EE1 /* ContactUsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E36FFE268DAFCC00A10EE1 /* ContactUs2ViewController.swift */,
+				D1E36FFF268DAFCC00A10EE1 /* ContactUsViewController.swift */,
+			);
+			path = ContactUsViewController;
+			sourceTree = "<group>";
+		};
+		D1E37007268DAFF500A10EE1 /* Page1ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E37008268DAFF500A10EE1 /* Page4ComViewController.swift */,
+				D1E37009268DAFF500A10EE1 /* Page3ComViewController.swift */,
+				D1E3700A268DAFF500A10EE1 /* Page1ComViewController.swift */,
+				D1E3700B268DAFF500A10EE1 /* Page4ViewController.swift */,
+				D1E3700C268DAFF500A10EE1 /* Page3ViewController.swift */,
+				D1E3700D268DAFF500A10EE1 /* Page2ComViewController.swift */,
+				D1E3700E268DAFF500A10EE1 /* Page2ViewController.swift */,
+				D1E3700F268DAFF500A10EE1 /* Page1ViewController.swift */,
+			);
+			path = Page1ViewController;
+			sourceTree = "<group>";
+		};
+		D1E37012268DB00500A10EE1 /* PostViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E37013268DB00500A10EE1 /* PostViewController.swift */,
+				D1E37014268DB00500A10EE1 /* Post2ViewController.swift */,
+			);
+			path = PostViewController;
+			sourceTree = "<group>";
+		};
+		D1E37018268DB01900A10EE1 /* Search1ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E37019268DB01900A10EE1 /* Search1ViewController.swift */,
+				D1E3701A268DB01900A10EE1 /* Search2ViewController.swift */,
+			);
+			path = Search1ViewController;
+			sourceTree = "<group>";
+		};
+		D1E37027268DB06500A10EE1 /* PasswordResetViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E37028268DB06500A10EE1 /* PasswordReset2ViewController.swift */,
+				D1E37029268DB06500A10EE1 /* PasswordResetViewController.swift */,
+			);
+			path = PasswordResetViewController;
+			sourceTree = "<group>";
+		};
+		D1E3702F268DB08200A10EE1 /* ChooseDestViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D1E37030268DB08200A10EE1 /* ChooseDestViewController.swift */,
+				D1E37031268DB08200A10EE1 /* ChooseCategoryViewController.swift */,
+			);
+			path = ChooseDestViewController;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +356,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D1E36FB5268DAE7500A10EE1 /* Build configuration list for PBXNativeTarget "Nomad" */;
 			buildPhases = (
+				DE0BDB030ECBBDBE154CA24F /* [CP] Check Pods Manifest.lock */,
 				D1E36F9D268DAE7300A10EE1 /* Sources */,
 				D1E36F9E268DAE7300A10EE1 /* Frameworks */,
 				D1E36F9F268DAE7300A10EE1 /* Resources */,
+				E01BB923D5856F0F5A18BC38 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +416,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DE0BDB030ECBBDBE154CA24F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nomad-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E01BB923D5856F0F5A18BC38 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nomad/Pods-Nomad-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nomad/Pods-Nomad-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nomad/Pods-Nomad-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D1E36F9D268DAE7300A10EE1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1E37074268DB0E900A10EE1 /* BookmarksViewController.swift in Sources */,
+				D1E37054268DB0E800A10EE1 /* MyPostsViewController.swift in Sources */,
+				D1E37053268DB0E800A10EE1 /* LoginViewController.swift in Sources */,
+				D1E37059268DB0E800A10EE1 /* Page4ViewController.swift in Sources */,
+				D1E37078268DB0E900A10EE1 /* CategoryMenuViewController.swift in Sources */,
+				D1E37049268DB0E800A10EE1 /* TermsViewController.swift in Sources */,
+				D1E37058268DB0E800A10EE1 /* Page1ComViewController.swift in Sources */,
+				D1E37057268DB0E800A10EE1 /* Page3ComViewController.swift in Sources */,
+				D1E3704C268DB0E800A10EE1 /* PrivacyPolicyViewController.swift in Sources */,
 				D1E36FA9268DAE7300A10EE1 /* ViewController.swift in Sources */,
+				D1E3706B268DB0E900A10EE1 /* SettingsViewController.swift in Sources */,
+				D1E37051268DB0E800A10EE1 /* DeleteViewController.swift in Sources */,
+				D1E37047268DB0E800A10EE1 /* ProfileEditViewController.swift in Sources */,
+				D1E3705C268DB0E800A10EE1 /* Page2ViewController.swift in Sources */,
+				D1E37044268DB0E800A10EE1 /* NameEditViewController.swift in Sources */,
+				D1E37046268DB0E800A10EE1 /* PersonalViewController.swift in Sources */,
 				D1E36FA5268DAE7300A10EE1 /* AppDelegate.swift in Sources */,
+				D1E37045268DB0E800A10EE1 /* CaptionComViewController.swift in Sources */,
+				D1E37064268DB0E900A10EE1 /* Search2ViewController.swift in Sources */,
+				D1E37067268DB0E900A10EE1 /* NoticeViewController.swift in Sources */,
+				D1E3706A268DB0E900A10EE1 /* OverViewViewController.swift in Sources */,
+				D1E3706E268DB0E900A10EE1 /* PasswordResetViewController.swift in Sources */,
+				D1E3704E268DB0E800A10EE1 /* FollowingViewController.swift in Sources */,
+				D1E37072268DB0E900A10EE1 /* ChooseDestViewController.swift in Sources */,
 				D1E36FA7268DAE7300A10EE1 /* SceneDelegate.swift in Sources */,
+				D1E3706F268DB0E900A10EE1 /* StartViewController.swift in Sources */,
+				D1E37065268DB0E900A10EE1 /* MyNomadViewController.swift in Sources */,
+				D1E37063268DB0E900A10EE1 /* Search1ViewController.swift in Sources */,
+				D1E37066268DB0E900A10EE1 /* CategoryViewController.swift in Sources */,
+				D1E37079268DB0E900A10EE1 /* UserListViewController.swift in Sources */,
+				D1E37048268DB0E800A10EE1 /* SettingsNameTableViewController.swift in Sources */,
+				D1E3704D268DB0E800A10EE1 /* AddDescViewController.swift in Sources */,
+				D1E3707F268DB0E900A10EE1 /* TestNavigationViewController.swift in Sources */,
+				D1E37052268DB0E800A10EE1 /* CaptionEditViewController.swift in Sources */,
+				D1E37068268DB0E900A10EE1 /* ActivityViewController.swift in Sources */,
+				D1E3704B268DB0E800A10EE1 /* PrivacyPolicy2ViewController.swift in Sources */,
+				D1E37070268DB0E900A10EE1 /* WebComViewController.swift in Sources */,
+				D1E37060268DB0E900A10EE1 /* Post2ViewController.swift in Sources */,
+				D1E37071268DB0E900A10EE1 /* WebEditViewController.swift in Sources */,
+				D1E37062268DB0E900A10EE1 /* JoinViewController.swift in Sources */,
+				D1E3707D268DB0E900A10EE1 /* TabBarController.swift in Sources */,
+				D1E3707B268DB0E900A10EE1 /* BaseViewController.swift in Sources */,
+				D1E3706D268DB0E900A10EE1 /* PasswordReset2ViewController.swift in Sources */,
+				D1E3705F268DB0E900A10EE1 /* PostViewController.swift in Sources */,
+				D1E3707E268DB0E900A10EE1 /* NavigateFromSearchResultProtocol.swift in Sources */,
+				D1E37073268DB0E900A10EE1 /* ChooseCategoryViewController.swift in Sources */,
+				D1E3704A268DB0E800A10EE1 /* Terms2ViewController.swift in Sources */,
+				D1E37042268DB0E800A10EE1 /* LikeViewController.swift in Sources */,
+				D1E37061268DB0E900A10EE1 /* EmailVerificationViewController.swift in Sources */,
+				D1E37043268DB0E800A10EE1 /* NameComViewController.swift in Sources */,
+				D1E3707A268DB0E900A10EE1 /* BlockViewController.swift in Sources */,
+				D1E37075268DB0E900A10EE1 /* SignUpViewController.swift in Sources */,
+				D1E3706C268DB0E900A10EE1 /* PostEditViewController.swift in Sources */,
+				D1E3704F268DB0E800A10EE1 /* ContactUs2ViewController.swift in Sources */,
+				D1E3705D268DB0E900A10EE1 /* Page1ViewController.swift in Sources */,
+				D1E3705B268DB0E800A10EE1 /* Page2ComViewController.swift in Sources */,
+				D1E3707C268DB0E900A10EE1 /* ChatRoomViewController.swift in Sources */,
+				D1E37077268DB0E900A10EE1 /* ViewedViewController.swift in Sources */,
+				D1E3705E268DB0E900A10EE1 /* HomeViewController.swift in Sources */,
+				D1E37050268DB0E800A10EE1 /* ContactUsViewController.swift in Sources */,
+				D1E37056268DB0E800A10EE1 /* Page4ComViewController.swift in Sources */,
+				D1E37076268DB0E900A10EE1 /* HowToUseViewController.swift in Sources */,
+				D1E37055268DB0E800A10EE1 /* OverViewComViewController.swift in Sources */,
+				D1E3705A268DB0E800A10EE1 /* Page3ViewController.swift in Sources */,
+				D1E37069268DB0E900A10EE1 /* CategoryPostsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +671,7 @@
 		};
 		D1E36FB6268DAE7500A10EE1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90E9F59858B007DC6D647D5D /* Pods-Nomad.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +690,7 @@
 		};
 		D1E36FB7268DAE7500A10EE1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA2262717208A05A1DD5C2E5 /* Pods-Nomad.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
