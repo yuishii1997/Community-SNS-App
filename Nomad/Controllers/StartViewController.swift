@@ -8,11 +8,18 @@
 // アプリ起動直後ログインと新規登録選択画面
 
 import UIKit
+import Firebase
+import GoogleMobileAds
+import Foundation
+import AppTrackingTransparency
+import AdSupport
 
 class StartViewController: UIViewController {
     
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var signupButton: UIButton!
+    
+    var window: UIWindow?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +35,29 @@ class StartViewController: UIViewController {
         signupButton.layer.borderColor = UIColor.systemGray3.cgColor // 枠線の色
         signupButton.layer.cornerRadius = 22
         
+        
+        if #available(iOS 14, *) {
+            switch ATTrackingManager.trackingAuthorizationStatus {
+            case .authorized:
+                print("Allow Tracking")
+                print("IDFA: \(ASIdentifierManager.shared().advertisingIdentifier)")
+            case .denied:
+                print("😭拒否")
+            case .restricted:
+                print("🥺制限")
+            case .notDetermined:
+                showRequestTrackingAuthorizationAlert()
+            @unknown default:
+                fatalError()
+            }
+        } else {// iOS14未満
+            if ASIdentifierManager.shared().isAdvertisingTrackingEnabled {
+                print("Allow Tracking")
+                print("IDFA: \(ASIdentifierManager.shared().advertisingIdentifier)")
+            } else {
+                print("🥺制限")
+            }
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -37,5 +67,23 @@ class StartViewController: UIViewController {
         backBarButtonItem.title = "Back"
         self.navigationItem.backBarButtonItem = backBarButtonItem
         self.navigationController?.navigationBar.shadowImage = UIImage()
+    }
+    
+    ///Alert表示
+    private func showRequestTrackingAuthorizationAlert() {
+        if #available(iOS 14, *) {
+            ATTrackingManager.requestTrackingAuthorization(completionHandler: { status in
+                switch status {
+                case .authorized:
+                    print("🎉")
+                    //IDFA取得
+                    print("IDFA: \(ASIdentifierManager.shared().advertisingIdentifier)")
+                case .denied, .restricted, .notDetermined:
+                    print("😭")
+                @unknown default:
+                    fatalError()
+                }
+            })
+        }
     }
 }
