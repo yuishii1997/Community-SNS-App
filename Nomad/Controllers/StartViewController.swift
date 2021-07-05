@@ -35,7 +35,6 @@ class StartViewController: UIViewController {
         signupButton.layer.borderColor = UIColor.systemGray3.cgColor // 枠線の色
         signupButton.layer.cornerRadius = 22
         
-        
         if #available(iOS 14, *) {
             switch ATTrackingManager.trackingAuthorizationStatus {
             case .authorized:
