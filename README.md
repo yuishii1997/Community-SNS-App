@@ -1,2 +1,2 @@
-ポートフォリオで記載したソースコードは、以下のAppStoreのリンクで閲覧・ダウンロードできます。
+今回のツキイチLightning Talkでお話ししたアプリです。
 https://apps.apple.com/jp/app/id1521126400
