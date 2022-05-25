@@ -6,6 +6,8 @@
 
 <img width="1054" alt="スクリーンショット 2022-05-25 6 48 01" src="https://user-images.githubusercontent.com/86716567/170137926-9263bdf4-3bf3-42a1-9e9e-a7de18b1a922.png">
 
+![image](https://user-images.githubusercontent.com/86716567/170151396-ac686b87-5ba3-441d-9b0d-afa498f4266f.png)
+
 App Storeにリリースしています
 https://apps.apple.com/jp/app/id1521126400
 
