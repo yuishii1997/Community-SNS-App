@@ -17,5 +17,7 @@
 
 ![image](https://user-images.githubusercontent.com/86716567/170151396-ac686b87-5ba3-441d-9b0d-afa498f4266f.png)
 
+
 App Storeにリリースしています
 https://apps.apple.com/jp/app/id1521126400
+(注: 現在はリリースしていません)
